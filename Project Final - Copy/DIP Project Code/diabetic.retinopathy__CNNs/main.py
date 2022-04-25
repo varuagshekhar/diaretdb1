@@ -21,9 +21,9 @@ if __name__ == "__main__":
     # download data if not present
     fetch_db0()
 
-    dir_path = "./diaretdb0_v_1_1/resources/images/diaretdb0_fundus_images"
+    dir_path = "C:\Users\91968\Documents\ezyZip\diaretdb1_v_1_1\resources\images"
     #dir_path=r"C:\Users\Ishan\Desktop\diaretdb0_v_1_1\resources\images\diaretdb0_fundus_images"
-    dot_path= "./diaretdb0_v_1_1/resources/images/diaretdb0_groundtruths"
+    dot_path= "C:\Users\91968\Documents\ezyZip\diaretdb1_v_1_1\resources\images\ddb1_groundtruth"
     #dot_path=r"C:\Users\Ishan\Desktop\diaretdb0_v_1_1\resources\images\diaretdb0_groundtruths"
     output_path = "./normalised_images"
     norm_images = pd.DataFrame()
